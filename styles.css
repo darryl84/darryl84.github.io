@@ -1,0 +1,181 @@
+body  {
+     background:url(https://unsplash.imgix.net/photo-1428550670225-15f007f6f1ba);
+     background-size: 1920px;
+     font-size: 16px;
+     margin:0;
+     font-family:Arial, Helvetica, sans-serif;
+
+}
+
+a   {
+    color:#fff;
+
+
+}
+
+a:hover {
+    color:#fff;
+
+}
+
+h1 {
+    color:purple;
+
+}
+
+
+
+header, footer,#container {
+    width:88%;
+    max-width:960px;
+    margin: 0 auto;
+    border: 1px solid pink;
+
+}
+
+#wrapper {
+    background:#fff;
+
+}
+
+.footertext {
+    color:#000;
+}
+
+/*-----------------Nav---------------*/
+
+
+
+nav ul {
+    padding:0;
+
+}
+
+nav ul li {
+    float:left;
+    margin-right:1em;
+    list-style:none;
+}
+
+nav ul li a {
+    background:#00babe;
+    text-decoration:none;
+    padding: .5em 1em;
+    border-radius: 0 60px;
+    transition: all 1s ease-in-out;
+}
+
+nav ul li a:hover{
+    background:#00a7ea;
+
+}
+
+/* Misc.
+------------------------------------------*/
+
+.clearfix:after {
+    content:".";
+    display:block;
+    height: 20px;
+    clear:both;
+    visibility:hidden;
+}
+
+
+/*-----------------Float---------------*/
+
+.align-right {
+    float:right;
+    margin: .5em 0 .5em .5em;
+}
+
+
+
+.align-left {
+    float:left;
+    margin: .5em .5em .5em 0;
+}
+
+.align-center {
+    margin:0 auto;
+    display:block;
+}
+
+/*-----------------Transforms---------------*/
+
+.transform:hover {
+    /*transform: scale(1.2);*/
+    transform: rotate(1080deg);
+    /*transform: skewx(20deg);*/
+}
+
+.transform {
+    transition: all 1s ease-in-out;
+}
+
+/*-----------------Gallery---------------*/
+
+.gallery {
+    padding:0;
+
+}
+
+.gallery li {
+    float:left;
+    margin-right:.7m 1em 0 0;
+    list-style:none;
+}
+
+.gallery img {
+    border:3px solid peachpuff;
+    display:block;
+}
+
+.gallery img:hover {
+    border: 3px solid deeppink;
+}
+
+.gallery li div.item {
+    position:relative;
+    overflow:hidden;
+
+
+}
+
+.gallery li div.item span {
+    text-align:center;
+    position:absolute;
+    bottom:-50px;
+    left:0;
+    background: rgba(25, 25, 25, 0.4);
+    width:100%;
+    padding: .7em 0 1.2em 0;
+    transition: 1s all ease-in-out;
+}
+.gallery li div.item:hover span {
+    bottom:0;
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+    main {
+        width:60%;
+        float:left;
+    }
+    #secondary {
+        width:36%;
+        border-radius:5px;
+        float:right;
+        padding:.5em;
+        border:1px dotted red;
+        margin:1em 0;
+    }
+}
+
+
+
+
+
+
